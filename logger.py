@@ -72,8 +72,10 @@ class Logger(object):
         # Append the results of the infection to the logfile
         with open(self.file_name, 'a+') as log:
             if did_die_from_infection:
-                log_msg = (str(random_person._id) + "is vaccinated so " +
-                           (person._id) + "Can not infect them")
+                log_msg = (str(person._id) + "died ")
+            elif not did_die_from_infection:
+                log_msg = (str(person._id) + "survived")
+            log.write(log_msg)
 
     def log_time_step(self, time_step_number):
         ''' STRETCH CHALLENGE DETAILS:
