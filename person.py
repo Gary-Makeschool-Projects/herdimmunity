@@ -1,4 +1,4 @@
-from random import random, uniform
+from random import uniform
 from virus import Virus
 
 
@@ -36,10 +36,6 @@ class Person(object):
                 self.infection = None
                 self.is_alive = True
                 return self.is_alive
-
-    def resolve_infection(self):
-        if self.infection:
-            pass
 
 
 ''' These are simple tests to ensure that you are instantiating your Person class correctly. '''
