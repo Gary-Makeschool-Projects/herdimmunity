@@ -70,10 +70,30 @@ class Simulation(object):
 
         # Use the attributes created in the init method to create a population that has
         # the correct intial vaccination percentage and initial infected.
-        population = []  # array will contail all Person objects
-        for position in range(args + 1)
+        # Should return a 0.xx value - Vacc percentage
+        vacc_percentage = self.vacc_percentage
 
-        return population
+        # The number of people to vaccinate
+        num_to_vac = int(self.population_size * vacc_percentage)
+
+        # Number of infected people
+        num_to_infect = self.initial_infected
+
+        # healthy percentage
+        num_to_create_norm = self.population_size - \
+            (num_to_infect + num_to_vac)
+
+        counter = 1
+        for i in range(0, num_to_vac):
+            counter += 1
+            self.population.append(Person(i, True, None))
+
+        for i in range(counter, num_to_infect + counter):
+            counter += 1
+            self.population.append(Person(i, False, self.virus))
+
+        for i in range(counter, num_to_create_norm + counter):
+            self.population.append(Person(i, False, None))
 
     def _simulation_should_continue(self):
         ''' The simulation should only end if the entire population is dead
