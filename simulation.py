@@ -52,7 +52,7 @@ class Simulation(object):
             virus_name, population_size, vacc_percentage, initial_infected)
         self.newly_infected = []
 
-    def _create_population(self, initial_infected):
+    def _create_population(self, *args):
         '''This method will create the initial population.
             Args:
                 initial_infected (int): The number of infected people that the simulation
@@ -70,7 +70,10 @@ class Simulation(object):
 
         # Use the attributes created in the init method to create a population that has
         # the correct intial vaccination percentage and initial infected.
-        pass
+        population = []  # array will contail all Person objects
+        for position in range(args + 1)
+
+        return population
 
     def _simulation_should_continue(self):
         ''' The simulation should only end if the entire population is dead

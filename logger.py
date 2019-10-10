@@ -39,20 +39,25 @@ class Logger(object):
 
         or the other edge cases:
             "{person.ID} didn't infect {random_person.ID} because {'vaccinated' or 'already sick'} \n"
+
         '''
+
         # TODO: Finish this method. Think about how the booleans passed (or not passed)
         # represent all the possible edge cases. Use the values passed along with each person,
         # along with whether they are sick or vaccinated when they interact to determine
         # exactly what happened in the interaction and create a String, and write to your logfile.
         with open(self.file_name, 'a+') as log:
             if did_infect:
-                log_msg = (str(person._id) + "infects" + str(random_person._id) + "\n")
+                log_msg = (str(person._id) + "infects" +
+                           str(random_person._id) + "\n")
                 log.write(log_msg)
             elif random_person_vacc:
-                log_msg = (str(random_person._id) + "is vaccinated so " + (person._id) + "Can not infect them")
+                log_msg = (str(random_person._id) + "is vaccinated so " +
+                           (person._id) + "Can not infect them")
                 log.write(log_msg)
             elif not random_person_vacc:
-                log_msg = (str(random_person._id) + "is already infected so " + (person._id) + "Can not infect them")
+                log_msg = (str(random_person._id) + "is already infected so " +
+                           (person._id) + "Can not infect them")
                 log.write(log_msg)
 
     def log_infection_survival(self, person, did_die_from_infection):
@@ -65,7 +70,10 @@ class Logger(object):
         # TODO: Finish this method. If the person survives, did_die_from_infection
         # should be False.  Otherwise, did_die_from_infection should be True.
         # Append the results of the infection to the logfile
-        pass
+        with open(self.file_name, 'a+') as log:
+            if did_die_from_infection:
+                log_msg = (str(random_person._id) + "is vaccinated so " +
+                           (person._id) + "Can not infect them")
 
     def log_time_step(self, time_step_number):
         ''' STRETCH CHALLENGE DETAILS:
