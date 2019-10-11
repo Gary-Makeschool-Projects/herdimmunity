@@ -1,0 +1,809 @@
+Population Size: 100    Vaccination Percentage: 0.9    Virus: Ebola    Mortality Rate: 0.7    Basic Reproduction Number: 0.25
+91 didn't infect 81 because they resisted the virus.
+91 didn't infect 14 because they resisted the virus.
+91 didn't infect 3 because they resisted the virus.
+91 didn't infect 95 because they resisted the virus.
+91 didn't infect 28 because they resisted the virus.
+91 didn't infect 17 because they resisted the virus.
+91 didn't infect 95 because they resisted the virus.
+91 didn't infect 95 because they resisted the virus.
+91 didn't infect 11 because they resisted the virus.
+91 didn't infect 75 because they resisted the virus.
+91 didn't infect 54 because they resisted the virus.
+91 didn't infect 4 because they resisted the virus.
+91 didn't infect 3 because they resisted the virus.
+91 didn't infect 11 because they resisted the virus.
+91 didn't infect 27 because they resisted the virus.
+91 didn't infect 29 because they resisted the virus.
+91 didn't infect 64 because they resisted the virus.
+91 didn't infect 77 because they resisted the virus.
+91 didn't infect 3 because they resisted the virus.
+91 didn't infect 71 because they resisted the virus.
+91 didn't infect 25 because they resisted the virus.
+91 didn't infect 92 because they resisted the virus.
+91 didn't infect 69 because they resisted the virus.
+91 didn't infect 53 because they resisted the virus.
+91 didn't infect 28 because they resisted the virus.
+91 didn't infect 57 because they resisted the virus.
+91 didn't infect 75 because they resisted the virus.
+91 didn't infect 35 because they resisted the virus.
+91 didn't infect 0 because they resisted the virus.
+91 didn't infect 98 because they resisted the virus.
+91 didn't infect 89 because they resisted the virus.
+91 didn't infect 54 because they resisted the virus.
+91 didn't infect 43 because they resisted the virus.
+91 didn't infect 35 because they resisted the virus.
+91 didn't infect 19 because they resisted the virus.
+91 didn't infect 27 because they resisted the virus.
+91 didn't infect 98 because they resisted the virus.
+91 didn't infect 11 because they resisted the virus.
+91 didn't infect 48 because they resisted the virus.
+91 didn't infect 12 because they resisted the virus.
+91 didn't infect 45 because they resisted the virus.
+91 didn't infect 44 because they resisted the virus.
+91 didn't infect 77 because they resisted the virus.
+91 didn't infect 33 because they resisted the virus.
+91 didn't infect 5 because they resisted the virus.
+91 didn't infect 94 because they resisted the virus.
+91 didn't infect 15 because they resisted the virus.
+91 didn't infect 48 because they resisted the virus.
+91 didn't infect 10 because they resisted the virus.
+91 didn't infect 70 because they resisted the virus.
+91 didn't infect 37 because they resisted the virus.
+91 didn't infect 80 because they resisted the virus.
+91 didn't infect 79 because they resisted the virus.
+91 didn't infect 46 because they resisted the virus.
+91 didn't infect 73 because they resisted the virus.
+91 didn't infect 24 because they resisted the virus.
+91 didn't infect 91 because they resisted the virus.
+91 didn't infect 8 because they resisted the virus.
+91 didn't infect 5 because they resisted the virus.
+91 didn't infect 84 because they resisted the virus.
+91 didn't infect 29 because they resisted the virus.
+91 didn't infect 99 because they resisted the virus.
+91 didn't infect 10 because they resisted the virus.
+91 didn't infect 29 because they resisted the virus.
+91 didn't infect 12 because they resisted the virus.
+91 didn't infect 48 because they resisted the virus.
+91 didn't infect 35 because they resisted the virus.
+91 didn't infect 58 because they resisted the virus.
+91 didn't infect 81 because they resisted the virus.
+91 didn't infect 46 because they resisted the virus.
+91 didn't infect 20 because they resisted the virus.
+91 didn't infect 47 because they resisted the virus.
+91 didn't infect 45 because they resisted the virus.
+91 didn't infect 26 because they resisted the virus.
+91 didn't infect 85 because they resisted the virus.
+91 didn't infect 34 because they resisted the virus.
+91 didn't infect 89 because they resisted the virus.
+91 didn't infect 87 because they resisted the virus.
+91 didn't infect 82 because they resisted the virus.
+91 didn't infect 9 because they resisted the virus.
+91 didn't infect 77 because they resisted the virus.
+91 didn't infect 81 because they resisted the virus.
+91 didn't infect 21 because they resisted the virus.
+91 didn't infect 68 because they resisted the virus.
+91 didn't infect 94 because they resisted the virus.
+91 didn't infect 59 because they resisted the virus.
+91 didn't infect 48 because they resisted the virus.
+91 didn't infect 34 because they resisted the virus.
+91 didn't infect 81 because they resisted the virus.
+91 didn't infect 88 because they resisted the virus.
+91 didn't infect 71 because they resisted the virus.
+91 didn't infect 28 because they resisted the virus.
+91 didn't infect 87 because they resisted the virus.
+91 didn't infect 41 because they resisted the virus.
+91 didn't infect 99 because they resisted the virus.
+91 didn't infect 29 because they resisted the virus.
+91 didn't infect 4 because they resisted the virus.
+91 didn't infect 40 because they resisted the virus.
+91 didn't infect 51 because they resisted the virus.
+91 didn't infect 34 because they resisted the virus.
+91 didn't infect 8 because they resisted the virus.
+0 survived infection.
+1 survived infection.
+2 survived infection.
+3 survived infection.
+4 survived infection.
+5 survived infection.
+6 survived infection.
+7 survived infection.
+8 survived infection.
+9 survived infection.
+10 survived infection.
+11 survived infection.
+12 survived infection.
+13 survived infection.
+14 survived infection.
+15 survived infection.
+16 survived infection.
+17 survived infection.
+18 survived infection.
+19 survived infection.
+20 survived infection.
+21 survived infection.
+22 survived infection.
+23 survived infection.
+24 survived infection.
+25 survived infection.
+26 survived infection.
+27 survived infection.
+28 survived infection.
+29 survived infection.
+30 survived infection.
+31 survived infection.
+32 survived infection.
+33 survived infection.
+34 survived infection.
+35 survived infection.
+36 survived infection.
+37 survived infection.
+38 survived infection.
+39 survived infection.
+40 survived infection.
+41 survived infection.
+42 survived infection.
+43 survived infection.
+44 survived infection.
+45 survived infection.
+46 survived infection.
+47 survived infection.
+48 survived infection.
+49 survived infection.
+50 survived infection.
+51 survived infection.
+52 survived infection.
+53 survived infection.
+54 survived infection.
+55 survived infection.
+56 survived infection.
+57 survived infection.
+58 survived infection.
+59 survived infection.
+60 survived infection.
+61 survived infection.
+62 survived infection.
+63 survived infection.
+64 survived infection.
+65 survived infection.
+66 survived infection.
+67 survived infection.
+68 survived infection.
+69 survived infection.
+70 survived infection.
+71 survived infection.
+72 survived infection.
+73 survived infection.
+74 survived infection.
+75 survived infection.
+76 survived infection.
+77 survived infection.
+78 survived infection.
+79 survived infection.
+80 survived infection.
+81 survived infection.
+82 survived infection.
+83 survived infection.
+84 survived infection.
+85 survived infection.
+86 survived infection.
+87 survived infection.
+88 survived infection.
+89 survived infection.
+91 died from infection.
+92 survived infection.
+93 survived infection.
+94 survived infection.
+95 survived infection.
+96 survived infection.
+97 survived infection.
+98 survived infection.
+99 survived infection.
+100 survived infection.
+Time step 1 ended, beginning 2
+94 didn't infect 72 because they resisted the virus.
+94 didn't infect 93 because they resisted the virus.
+94 didn't infect 83 because they resisted the virus.
+94 didn't infect 63 because they resisted the virus.
+94 didn't infect 50 because they resisted the virus.
+94 didn't infect 82 because they resisted the virus.
+94 didn't infect 58 because they resisted the virus.
+94 didn't infect 18 because they resisted the virus.
+94 didn't infect 33 because they resisted the virus.
+94 didn't infect 17 because they resisted the virus.
+94 didn't infect 31 because they resisted the virus.
+94 didn't infect 97 because they resisted the virus.
+94 didn't infect 33 because they resisted the virus.
+94 didn't infect 97 because they resisted the virus.
+94 didn't infect 74 because they resisted the virus.
+94 didn't infect 51 because they resisted the virus.
+94 didn't infect 46 because they resisted the virus.
+94 didn't infect 28 because they resisted the virus.
+94 didn't infect 17 because they resisted the virus.
+94 didn't infect 65 because they resisted the virus.
+94 didn't infect 63 because they resisted the virus.
+94 didn't infect 11 because they resisted the virus.
+94 didn't infect 98 because they resisted the virus.
+94 didn't infect 14 because they resisted the virus.
+94 didn't infect 19 because they resisted the virus.
+94 didn't infect 80 because they resisted the virus.
+94 didn't infect 20 because they resisted the virus.
+94 didn't infect 87 because they resisted the virus.
+94 didn't infect 54 because they resisted the virus.
+94 didn't infect 76 because they resisted the virus.
+94 didn't infect 8 because they resisted the virus.
+94 didn't infect 49 because they resisted the virus.
+94 didn't infect 48 because they resisted the virus.
+94 didn't infect 76 because they resisted the virus.
+94 didn't infect 59 because they resisted the virus.
+94 didn't infect 67 because they resisted the virus.
+94 didn't infect 32 because they resisted the virus.
+94 didn't infect 70 because they resisted the virus.
+94 didn't infect 1 because they resisted the virus.
+94 didn't infect 87 because they resisted the virus.
+94 didn't infect 94 because they resisted the virus.
+94 didn't infect 14 because they resisted the virus.
+94 didn't infect 87 because they resisted the virus.
+94 didn't infect 68 because they resisted the virus.
+94 didn't infect 98 because they resisted the virus.
+94 didn't infect 82 because they resisted the virus.
+94 didn't infect 43 because they resisted the virus.
+94 didn't infect 14 because they resisted the virus.
+94 didn't infect 37 because they resisted the virus.
+94 didn't infect 55 because they resisted the virus.
+94 didn't infect 20 because they resisted the virus.
+94 didn't infect 58 because they resisted the virus.
+94 didn't infect 0 because they resisted the virus.
+94 didn't infect 94 because they resisted the virus.
+94 didn't infect 94 because they resisted the virus.
+94 didn't infect 33 because they resisted the virus.
+94 didn't infect 64 because they resisted the virus.
+94 didn't infect 99 because they resisted the virus.
+94 didn't infect 13 because they resisted the virus.
+94 didn't infect 80 because they resisted the virus.
+94 didn't infect 38 because they resisted the virus.
+94 didn't infect 81 because they resisted the virus.
+94 didn't infect 64 because they resisted the virus.
+94 didn't infect 77 because they resisted the virus.
+94 didn't infect 25 because they resisted the virus.
+94 didn't infect 19 because they resisted the virus.
+94 didn't infect 47 because they resisted the virus.
+94 didn't infect 99 because they resisted the virus.
+94 didn't infect 67 because they resisted the virus.
+94 didn't infect 0 because they resisted the virus.
+94 didn't infect 76 because they resisted the virus.
+94 didn't infect 41 because they resisted the virus.
+94 didn't infect 62 because they resisted the virus.
+94 didn't infect 2 because they resisted the virus.
+94 didn't infect 14 because they resisted the virus.
+94 didn't infect 46 because they resisted the virus.
+94 didn't infect 39 because they resisted the virus.
+94 didn't infect 30 because they resisted the virus.
+94 didn't infect 7 because they resisted the virus.
+94 didn't infect 30 because they resisted the virus.
+94 didn't infect 72 because they resisted the virus.
+94 didn't infect 10 because they resisted the virus.
+94 didn't infect 10 because they resisted the virus.
+94 didn't infect 95 because they resisted the virus.
+94 didn't infect 62 because they resisted the virus.
+94 didn't infect 8 because they resisted the virus.
+94 didn't infect 99 because they resisted the virus.
+94 didn't infect 16 because they resisted the virus.
+94 didn't infect 16 because they resisted the virus.
+94 didn't infect 84 because they resisted the virus.
+94 didn't infect 60 because they resisted the virus.
+94 didn't infect 70 because they resisted the virus.
+94 didn't infect 21 because they resisted the virus.
+94 didn't infect 33 because they resisted the virus.
+94 didn't infect 67 because they resisted the virus.
+94 didn't infect 77 because they resisted the virus.
+94 didn't infect 54 because they resisted the virus.
+94 didn't infect 27 because they resisted the virus.
+94 didn't infect 69 because they resisted the virus.
+94 didn't infect 98 because they resisted the virus.
+94 didn't infect 25 because they resisted the virus.
+95 didn't infect 93 because they resisted the virus.
+95 didn't infect 85 because they resisted the virus.
+95 didn't infect 83 because they resisted the virus.
+95 didn't infect 47 because they resisted the virus.
+95 didn't infect 56 because they resisted the virus.
+95 didn't infect 66 because they resisted the virus.
+95 didn't infect 57 because they resisted the virus.
+95 didn't infect 15 because they resisted the virus.
+95 didn't infect 31 because they resisted the virus.
+95 didn't infect 28 because they resisted the virus.
+95 didn't infect 8 because they resisted the virus.
+95 didn't infect 43 because they resisted the virus.
+95 didn't infect 2 because they resisted the virus.
+95 didn't infect 75 because they resisted the virus.
+95 didn't infect 70 because they resisted the virus.
+95 didn't infect 29 because they resisted the virus.
+95 didn't infect 75 because they resisted the virus.
+95 didn't infect 28 because they resisted the virus.
+95 didn't infect 0 because they resisted the virus.
+95 didn't infect 9 because they resisted the virus.
+95 didn't infect 92 because they resisted the virus.
+95 didn't infect 29 because they resisted the virus.
+95 didn't infect 8 because they resisted the virus.
+95 didn't infect 4 because they resisted the virus.
+95 didn't infect 42 because they resisted the virus.
+95 didn't infect 9 because they resisted the virus.
+95 didn't infect 65 because they resisted the virus.
+95 didn't infect 30 because they resisted the virus.
+95 didn't infect 35 because they resisted the virus.
+95 didn't infect 85 because they resisted the virus.
+95 didn't infect 62 because they resisted the virus.
+95 didn't infect 27 because they resisted the virus.
+95 didn't infect 69 because they resisted the virus.
+95 didn't infect 16 because they resisted the virus.
+95 didn't infect 94 because they resisted the virus.
+95 didn't infect 73 because they resisted the virus.
+95 didn't infect 73 because they resisted the virus.
+95 didn't infect 60 because they resisted the virus.
+95 didn't infect 31 because they resisted the virus.
+95 didn't infect 60 because they resisted the virus.
+95 didn't infect 52 because they resisted the virus.
+95 didn't infect 24 because they resisted the virus.
+95 didn't infect 12 because they resisted the virus.
+95 didn't infect 12 because they resisted the virus.
+95 didn't infect 84 because they resisted the virus.
+95 didn't infect 55 because they resisted the virus.
+95 didn't infect 45 because they resisted the virus.
+95 didn't infect 54 because they resisted the virus.
+95 didn't infect 52 because they resisted the virus.
+95 didn't infect 59 because they resisted the virus.
+95 didn't infect 95 because they resisted the virus.
+95 didn't infect 6 because they resisted the virus.
+95 didn't infect 86 because they resisted the virus.
+95 didn't infect 83 because they resisted the virus.
+95 didn't infect 82 because they resisted the virus.
+95 didn't infect 12 because they resisted the virus.
+95 didn't infect 7 because they resisted the virus.
+95 didn't infect 51 because they resisted the virus.
+95 didn't infect 95 because they resisted the virus.
+95 didn't infect 43 because they resisted the virus.
+95 didn't infect 13 because they resisted the virus.
+95 didn't infect 31 because they resisted the virus.
+95 didn't infect 24 because they resisted the virus.
+95 didn't infect 24 because they resisted the virus.
+95 didn't infect 68 because they resisted the virus.
+95 didn't infect 57 because they resisted the virus.
+95 didn't infect 17 because they resisted the virus.
+95 didn't infect 54 because they resisted the virus.
+95 didn't infect 23 because they resisted the virus.
+95 didn't infect 35 because they resisted the virus.
+95 didn't infect 59 because they resisted the virus.
+95 didn't infect 31 because they resisted the virus.
+95 didn't infect 9 because they resisted the virus.
+95 didn't infect 56 because they resisted the virus.
+95 didn't infect 70 because they resisted the virus.
+95 didn't infect 12 because they resisted the virus.
+95 didn't infect 6 because they resisted the virus.
+95 didn't infect 83 because they resisted the virus.
+95 didn't infect 69 because they resisted the virus.
+95 didn't infect 1 because they resisted the virus.
+95 didn't infect 11 because they resisted the virus.
+95 didn't infect 98 because they resisted the virus.
+95 didn't infect 21 because they resisted the virus.
+95 didn't infect 52 because they resisted the virus.
+95 didn't infect 62 because they resisted the virus.
+95 didn't infect 61 because they resisted the virus.
+95 didn't infect 27 because they resisted the virus.
+95 didn't infect 51 because they resisted the virus.
+95 didn't infect 7 because they resisted the virus.
+95 didn't infect 21 because they resisted the virus.
+95 didn't infect 48 because they resisted the virus.
+95 didn't infect 0 because they resisted the virus.
+95 didn't infect 49 because they resisted the virus.
+95 didn't infect 33 because they resisted the virus.
+95 didn't infect 58 because they resisted the virus.
+95 didn't infect 36 because they resisted the virus.
+95 didn't infect 54 because they resisted the virus.
+95 didn't infect 89 because they resisted the virus.
+95 didn't infect 95 because they resisted the virus.
+95 didn't infect 71 because they resisted the virus.
+95 didn't infect 84 because they resisted the virus.
+0 survived infection.
+1 survived infection.
+2 survived infection.
+3 survived infection.
+4 survived infection.
+5 survived infection.
+6 survived infection.
+7 survived infection.
+8 survived infection.
+9 survived infection.
+10 survived infection.
+11 survived infection.
+12 survived infection.
+13 survived infection.
+14 survived infection.
+15 survived infection.
+16 survived infection.
+17 survived infection.
+18 survived infection.
+19 survived infection.
+20 survived infection.
+21 survived infection.
+22 survived infection.
+23 survived infection.
+24 survived infection.
+25 survived infection.
+26 survived infection.
+27 survived infection.
+28 survived infection.
+29 survived infection.
+30 survived infection.
+31 survived infection.
+32 survived infection.
+33 survived infection.
+34 survived infection.
+35 survived infection.
+36 survived infection.
+37 survived infection.
+38 survived infection.
+39 survived infection.
+40 survived infection.
+41 survived infection.
+42 survived infection.
+43 survived infection.
+44 survived infection.
+45 survived infection.
+46 survived infection.
+47 survived infection.
+48 survived infection.
+49 survived infection.
+50 survived infection.
+51 survived infection.
+52 survived infection.
+53 survived infection.
+54 survived infection.
+55 survived infection.
+56 survived infection.
+57 survived infection.
+58 survived infection.
+59 survived infection.
+60 survived infection.
+61 survived infection.
+62 survived infection.
+63 survived infection.
+64 survived infection.
+65 survived infection.
+66 survived infection.
+67 survived infection.
+68 survived infection.
+69 survived infection.
+70 survived infection.
+71 survived infection.
+72 survived infection.
+73 survived infection.
+74 survived infection.
+75 survived infection.
+76 survived infection.
+77 survived infection.
+78 survived infection.
+79 survived infection.
+80 survived infection.
+81 survived infection.
+82 survived infection.
+83 survived infection.
+84 survived infection.
+85 survived infection.
+86 survived infection.
+87 survived infection.
+88 survived infection.
+89 survived infection.
+91 died from infection.
+92 survived infection.
+93 survived infection.
+94 died from infection.
+95 died from infection.
+96 survived infection.
+97 survived infection.
+98 survived infection.
+99 survived infection.
+100 survived infection.
+Time step 2 ended, beginning 3
+98 didn't infect 7 because they resisted the virus.
+98 didn't infect 74 because they resisted the virus.
+98 didn't infect 98 because they resisted the virus.
+98 didn't infect 69 because they resisted the virus.
+98 didn't infect 7 because they resisted the virus.
+98 didn't infect 99 because they resisted the virus.
+98 didn't infect 40 because they resisted the virus.
+98 didn't infect 7 because they resisted the virus.
+98 didn't infect 6 because they resisted the virus.
+98 didn't infect 74 because they resisted the virus.
+98 didn't infect 61 because they resisted the virus.
+98 didn't infect 64 because they resisted the virus.
+98 didn't infect 67 because they resisted the virus.
+98 didn't infect 20 because they resisted the virus.
+98 didn't infect 7 because they resisted the virus.
+98 didn't infect 65 because they resisted the virus.
+98 didn't infect 10 because they resisted the virus.
+98 didn't infect 23 because they resisted the virus.
+98 didn't infect 8 because they resisted the virus.
+98 didn't infect 76 because they resisted the virus.
+98 didn't infect 8 because they resisted the virus.
+98 didn't infect 86 because they resisted the virus.
+98 didn't infect 30 because they resisted the virus.
+98 didn't infect 51 because they resisted the virus.
+98 didn't infect 15 because they resisted the virus.
+98 didn't infect 72 because they resisted the virus.
+98 didn't infect 31 because they resisted the virus.
+98 didn't infect 74 because they resisted the virus.
+98 didn't infect 76 because they resisted the virus.
+98 didn't infect 5 because they resisted the virus.
+98 didn't infect 79 because they resisted the virus.
+98 didn't infect 10 because they resisted the virus.
+98 didn't infect 53 because they resisted the virus.
+98 didn't infect 84 because they resisted the virus.
+98 didn't infect 74 because they resisted the virus.
+98 didn't infect 72 because they resisted the virus.
+98 didn't infect 66 because they resisted the virus.
+98 didn't infect 40 because they resisted the virus.
+98 didn't infect 33 because they resisted the virus.
+98 didn't infect 26 because they resisted the virus.
+98 didn't infect 85 because they resisted the virus.
+98 didn't infect 93 because they resisted the virus.
+98 didn't infect 33 because they resisted the virus.
+98 didn't infect 50 because they resisted the virus.
+98 didn't infect 16 because they resisted the virus.
+98 didn't infect 85 because they resisted the virus.
+98 didn't infect 82 because they resisted the virus.
+98 didn't infect 38 because they resisted the virus.
+98 didn't infect 58 because they resisted the virus.
+98 didn't infect 40 because they resisted the virus.
+98 didn't infect 100 because they resisted the virus.
+98 didn't infect 1 because they resisted the virus.
+98 didn't infect 58 because they resisted the virus.
+98 didn't infect 79 because they resisted the virus.
+98 didn't infect 72 because they resisted the virus.
+98 didn't infect 12 because they resisted the virus.
+98 didn't infect 9 because they resisted the virus.
+98 didn't infect 68 because they resisted the virus.
+98 didn't infect 27 because they resisted the virus.
+98 didn't infect 64 because they resisted the virus.
+98 didn't infect 33 because they resisted the virus.
+98 didn't infect 16 because they resisted the virus.
+98 didn't infect 44 because they resisted the virus.
+98 didn't infect 8 because they resisted the virus.
+98 didn't infect 31 because they resisted the virus.
+98 didn't infect 47 because they resisted the virus.
+98 didn't infect 36 because they resisted the virus.
+98 didn't infect 20 because they resisted the virus.
+98 didn't infect 56 because they resisted the virus.
+98 didn't infect 69 because they resisted the virus.
+98 didn't infect 92 because they resisted the virus.
+98 didn't infect 83 because they resisted the virus.
+98 didn't infect 67 because they resisted the virus.
+98 didn't infect 1 because they resisted the virus.
+98 didn't infect 85 because they resisted the virus.
+98 didn't infect 70 because they resisted the virus.
+98 didn't infect 38 because they resisted the virus.
+98 didn't infect 84 because they resisted the virus.
+98 didn't infect 13 because they resisted the virus.
+98 didn't infect 17 because they resisted the virus.
+98 didn't infect 33 because they resisted the virus.
+98 didn't infect 14 because they resisted the virus.
+98 didn't infect 13 because they resisted the virus.
+98 didn't infect 99 because they resisted the virus.
+98 didn't infect 70 because they resisted the virus.
+98 didn't infect 19 because they resisted the virus.
+98 didn't infect 34 because they resisted the virus.
+98 didn't infect 36 because they resisted the virus.
+98 didn't infect 77 because they resisted the virus.
+98 didn't infect 26 because they resisted the virus.
+98 didn't infect 93 because they resisted the virus.
+98 didn't infect 87 because they resisted the virus.
+98 didn't infect 81 because they resisted the virus.
+98 didn't infect 33 because they resisted the virus.
+98 didn't infect 64 because they resisted the virus.
+98 didn't infect 62 because they resisted the virus.
+98 didn't infect 32 because they resisted the virus.
+98 didn't infect 6 because they resisted the virus.
+98 didn't infect 11 because they resisted the virus.
+98 didn't infect 81 because they resisted the virus.
+98 didn't infect 54 because they resisted the virus.
+99 didn't infect 35 because they resisted the virus.
+99 didn't infect 5 because they resisted the virus.
+99 didn't infect 0 because they resisted the virus.
+99 didn't infect 42 because they resisted the virus.
+99 didn't infect 16 because they resisted the virus.
+99 didn't infect 81 because they resisted the virus.
+99 didn't infect 33 because they resisted the virus.
+99 didn't infect 20 because they resisted the virus.
+99 didn't infect 98 because they resisted the virus.
+99 didn't infect 56 because they resisted the virus.
+99 didn't infect 70 because they resisted the virus.
+99 didn't infect 92 because they resisted the virus.
+99 didn't infect 1 because they resisted the virus.
+99 didn't infect 14 because they resisted the virus.
+99 didn't infect 9 because they resisted the virus.
+99 didn't infect 88 because they resisted the virus.
+99 didn't infect 19 because they resisted the virus.
+99 didn't infect 69 because they resisted the virus.
+99 didn't infect 4 because they resisted the virus.
+99 didn't infect 47 because they resisted the virus.
+99 didn't infect 74 because they resisted the virus.
+99 didn't infect 70 because they resisted the virus.
+99 didn't infect 18 because they resisted the virus.
+99 didn't infect 55 because they resisted the virus.
+99 didn't infect 16 because they resisted the virus.
+99 didn't infect 5 because they resisted the virus.
+99 didn't infect 39 because they resisted the virus.
+99 didn't infect 46 because they resisted the virus.
+99 didn't infect 5 because they resisted the virus.
+99 didn't infect 45 because they resisted the virus.
+99 didn't infect 26 because they resisted the virus.
+99 didn't infect 87 because they resisted the virus.
+99 didn't infect 31 because they resisted the virus.
+99 didn't infect 85 because they resisted the virus.
+99 didn't infect 13 because they resisted the virus.
+99 didn't infect 45 because they resisted the virus.
+99 didn't infect 71 because they resisted the virus.
+99 didn't infect 52 because they resisted the virus.
+99 didn't infect 79 because they resisted the virus.
+99 didn't infect 99 because they resisted the virus.
+99 didn't infect 19 because they resisted the virus.
+99 didn't infect 30 because they resisted the virus.
+99 didn't infect 20 because they resisted the virus.
+99 didn't infect 22 because they resisted the virus.
+99 didn't infect 52 because they resisted the virus.
+99 didn't infect 3 because they resisted the virus.
+99 didn't infect 22 because they resisted the virus.
+99 didn't infect 98 because they resisted the virus.
+99 didn't infect 42 because they resisted the virus.
+99 didn't infect 52 because they resisted the virus.
+99 didn't infect 85 because they resisted the virus.
+99 didn't infect 98 because they resisted the virus.
+99 didn't infect 31 because they resisted the virus.
+99 didn't infect 34 because they resisted the virus.
+99 didn't infect 20 because they resisted the virus.
+99 didn't infect 89 because they resisted the virus.
+99 didn't infect 13 because they resisted the virus.
+99 didn't infect 48 because they resisted the virus.
+99 didn't infect 4 because they resisted the virus.
+99 didn't infect 60 because they resisted the virus.
+99 didn't infect 28 because they resisted the virus.
+99 didn't infect 25 because they resisted the virus.
+99 didn't infect 58 because they resisted the virus.
+99 didn't infect 44 because they resisted the virus.
+99 didn't infect 39 because they resisted the virus.
+99 didn't infect 29 because they resisted the virus.
+99 didn't infect 28 because they resisted the virus.
+99 didn't infect 3 because they resisted the virus.
+99 didn't infect 84 because they resisted the virus.
+99 didn't infect 24 because they resisted the virus.
+99 didn't infect 51 because they resisted the virus.
+99 didn't infect 42 because they resisted the virus.
+99 didn't infect 35 because they resisted the virus.
+99 didn't infect 8 because they resisted the virus.
+99 didn't infect 35 because they resisted the virus.
+99 didn't infect 44 because they resisted the virus.
+99 didn't infect 82 because they resisted the virus.
+99 didn't infect 65 because they resisted the virus.
+99 didn't infect 51 because they resisted the virus.
+99 didn't infect 86 because they resisted the virus.
+99 didn't infect 68 because they resisted the virus.
+99 didn't infect 42 because they resisted the virus.
+99 didn't infect 3 because they resisted the virus.
+99 didn't infect 14 because they resisted the virus.
+99 didn't infect 33 because they resisted the virus.
+99 didn't infect 22 because they resisted the virus.
+99 didn't infect 74 because they resisted the virus.
+99 didn't infect 33 because they resisted the virus.
+99 didn't infect 4 because they resisted the virus.
+99 didn't infect 13 because they resisted the virus.
+99 didn't infect 76 because they resisted the virus.
+99 didn't infect 55 because they resisted the virus.
+99 didn't infect 44 because they resisted the virus.
+99 didn't infect 97 because they resisted the virus.
+99 didn't infect 55 because they resisted the virus.
+99 didn't infect 77 because they resisted the virus.
+99 didn't infect 65 because they resisted the virus.
+99 didn't infect 14 because they resisted the virus.
+99 didn't infect 49 because they resisted the virus.
+99 didn't infect 73 because they resisted the virus.
+99 didn't infect 24 because they resisted the virus.
+0 survived infection.
+1 survived infection.
+2 survived infection.
+3 survived infection.
+4 survived infection.
+5 survived infection.
+6 survived infection.
+7 survived infection.
+8 survived infection.
+9 survived infection.
+10 survived infection.
+11 survived infection.
+12 survived infection.
+13 survived infection.
+14 survived infection.
+15 survived infection.
+16 survived infection.
+17 survived infection.
+18 survived infection.
+19 survived infection.
+20 survived infection.
+21 survived infection.
+22 survived infection.
+23 survived infection.
+24 survived infection.
+25 survived infection.
+26 survived infection.
+27 survived infection.
+28 survived infection.
+29 survived infection.
+30 survived infection.
+31 survived infection.
+32 survived infection.
+33 survived infection.
+34 survived infection.
+35 survived infection.
+36 survived infection.
+37 survived infection.
+38 survived infection.
+39 survived infection.
+40 survived infection.
+41 survived infection.
+42 survived infection.
+43 survived infection.
+44 survived infection.
+45 survived infection.
+46 survived infection.
+47 survived infection.
+48 survived infection.
+49 survived infection.
+50 survived infection.
+51 survived infection.
+52 survived infection.
+53 survived infection.
+54 survived infection.
+55 survived infection.
+56 survived infection.
+57 survived infection.
+58 survived infection.
+59 survived infection.
+60 survived infection.
+61 survived infection.
+62 survived infection.
+63 survived infection.
+64 survived infection.
+65 survived infection.
+66 survived infection.
+67 survived infection.
+68 survived infection.
+69 survived infection.
+70 survived infection.
+71 survived infection.
+72 survived infection.
+73 survived infection.
+74 survived infection.
+75 survived infection.
+76 survived infection.
+77 survived infection.
+78 survived infection.
+79 survived infection.
+80 survived infection.
+81 survived infection.
+82 survived infection.
+83 survived infection.
+84 survived infection.
+85 survived infection.
+86 survived infection.
+87 survived infection.
+88 survived infection.
+89 survived infection.
+91 died from infection.
+92 survived infection.
+93 survived infection.
+94 died from infection.
+95 died from infection.
+96 survived infection.
+97 survived infection.
+98 died from infection.
+99 survived infection.
+100 survived infection.
+Time step 3 ended, beginning 4

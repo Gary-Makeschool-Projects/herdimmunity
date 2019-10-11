@@ -1,135 +1,90 @@
 from virus import Virus
-from logger import Logger
 from person import Person
 from simulation import Simulation
 import random
-import sys
-import io
 random.seed(42)
 
 
 def test_create_simulation():
-    """Test to make sure the simulation is being initated correctly."""
-    virus = Virus("Ebola", 0.25, 0.70)
+    virus = Virus("HIV", 0.60, 0.30)
+    assert virus.name == "HIV"
+    assert virus.repro_rate == 0.60
+    assert virus.mortality_rate == 0.30
 
-    sim = Simulation(100, 0.90, virus, 1)
+    simulation = Simulation(500, 0.70, virus, 2)
 
-    assert len(sim.population) == 100
-    assert sim.population_size == 100
-    assert sim.virus.name == "Ebola"
-    assert sim.initial_infected == 1
-    assert sim.total_infected == 1
-    assert sim.current_infected == 1
-    assert sim.vacc_percentage == 0.90
-    assert sim.total_dead == 0
-    assert sim.file_name == 'Ebola_simulation_pop_100_vp_0.9_infected_1.txt'
-    assert sim.logger is not None
-    assert len(sim.newly_infected) is 0
+    assert simulation.population_size == 500
+    assert simulation.virus.name == "HIV"
+    assert simulation.initial_infected == 2
+    assert simulation.vacc_percentage == 0.70
+    assert simulation.file_name == 'HIV_simulation_pop_500_vp_0.7_infected_2.txt'
 
 
 def test_create_population():
-    virus = Virus("Ebola", 0.25, 0.70)
+    virus = Virus("HIV", 0.60, 0.30)
+    assert virus.name == "HIV"
+    assert virus.repro_rate == 0.60
+    assert virus.mortality_rate == 0.30
 
-    sim = Simulation(100, 0.90, virus, 1)
+    simulation = Simulation(500, 0.70, virus, 2)
+    assert simulation.population_size == 500
+    assert simulation.virus.name == "HIV"
+    assert simulation.initial_infected == 2
+    assert simulation.vacc_percentage == 0.70
 
     normal_count = 0
     vacc_count = 0
     infec_count = 0
-    for person in sim.population:
+    for person in simulation.population:
         if person.is_vaccinated:
             vacc_count += 1
         elif person.infection:
             infec_count += 1
-        else:
-            normal_count += 1
 
-    assert normal_count == 9
-    assert vacc_count == 90
-    assert infec_count == 1
+    assert normal_count == 0 and vacc_count == 350 and infec_count == 2
 
 
 def test_simulation_should_continue_true():
-    virus = Virus("Ebola", 0.25, 0.70)
-
-    sim = Simulation(100, 0.90, virus, 1)
-
-    assert sim._simulation_should_continue() == True
+    virus = Virus("HIV", 0.60, 0.30)
+    simulation = Simulation(500, 0.70, virus, 2)
+    assert simulation._simulation_should_continue() is True
 
 
 def test_simulation_should_continue_false():
-    virus = Virus("Ebola", 0.25, 0.70)
+    virus = Virus("HIV", 0.60, 0.30)
+    simulation = Simulation(500, 0.70, virus, 2)
 
-    sim = Simulation(100, 0.90, virus, 1)
+    for person in simulation.population:
+        person.is_alive = False
 
-    for x in sim.population:
-        x.is_alive = False
-
-    assert sim._simulation_should_continue() == False
+    assert simulation._simulation_should_continue() is False
 
 
 def test_simulation_should_continue_vaccinated():
-    virus = Virus("Ebola", 0.25, 0.70)
+    virus = Virus("HIV", 0.60, 0.30)
+    simulation = Simulation(500, 0.70, virus, 2)
 
-    # Tests to see if ends with 0 infected people
-    sim = Simulation(100, 0.90, virus, 0)
-
-    assert sim._simulation_should_continue() == False
+    assert simulation._simulation_should_continue() is True
 
 
 def test_interaction():
-    # Test simulation interaction
-    virus = Virus("Ebola", 0.25, 0.70)
-
-    sim = Simulation(100, 0.90, virus, 1)
+    virus = Virus("HIV", 0.60, 0.30)
+    simulation = Simulation(500, 0.70, virus, 2)
 
     person1 = Person(1, False, virus)
     person2 = Person(2, False, None)
 
-    rand_val = sim.interaction(person1, person2)
+    random = simulation.interaction(person1, person2)
 
-    if rand_val < virus.repro_rate:
-        assert sim.newly_infected[0] == 2
+    if random < virus.repro_rate:
+        assert simulation.newly_infected[0] == 2
     else:
-        assert len(sim.newly_infected) == 0
-
-
-# Can't really test this because of the implementation
-# def test_time_step():
-#     virus = Virus("Ebola", 0.25, 0.70)
-
-#     sim = Simulation(100, 0.90, virus, 1)
-
-#     interaction = sim.time_step()
-#     assert interaction == 100
-
-
-def test_infect_newly_infected():
-    # 100% repro rate
-    virus = Virus("Ebola", 1.00, 0.70)
-
-    sim = Simulation(100, 0.90, virus, 1)
-
-    person1 = Person(1, False, virus)
-    person2 = Person(2, False, None)
-
-    sim.population.append(person1)
-    sim.population.append(person2)
-
-    sim.interaction(person1, person2)
-
-    assert sim.population[101].infection == None
-
-    sim._infect_newly_infected()
-
-    assert sim.population[101].infection.name is not None
+        assert len(simulation.newly_infected) == 0
 
 
 def test_run_func():
-    virus = Virus("Ebola", 0.25, 0.70)
-    sim = Simulation(100, 0.90, virus, 1)
-    # Have to set seed because pytest is broken
+    virus = Virus("HIV", 0.60, 0.30)
+    simulation = Simulation(500, 0.70, virus, 2)
     random.seed(42)
-
-    output = sim.run()
-
-    assert output == 'The simulation has ended after 3 turns.'
+    answer = simulation.run()
+    assert answer == 'The simulation has ended after 4 turns.'
