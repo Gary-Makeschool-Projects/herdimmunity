@@ -162,8 +162,23 @@ class Simulation(object):
             3. Otherwise call simulation.interaction(person, random_person) and
                 increment interaction counter by 1.
             '''
-        # TODO: Finish this method.
-        pass
+        sick_people = [person for person in self.population if person.is_alive and person.infection]
+        for sick in sick_people:
+            interaction = 0
+            while interaction < 100:
+                random_person = random.choice(self.population)
+                while not random_person.is_alive:
+                    random_person = random.choice(self.population)
+                self.interaction(sick, random_person)
+                interaction += 1
+        
+        for person in sick_people:
+            died = not person.did_survive_infection()
+            self.logger.log_infection_survival(person, died)
+
+        self._infect_newly_infected()
+
+
 
     def interaction(self, person, random_person):
         '''This method should be called any time two living people are selected for an
