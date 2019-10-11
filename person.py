@@ -1,4 +1,4 @@
-from random import uniform
+from random import uniform, random
 from virus import Virus
 
 
@@ -26,16 +26,15 @@ class Person(object):
         '''
         # Only called if infection attribute is not None.
         # TODO:  Finish this method. Should return a Boolean
-        if self.infection is None:
-            god_decision = uniform(0, 1)
-            if god_decision < virus.mortality_rate:
+        if self.infection:
+            rand_val = random()
+            if rand_val < self.infection.mortality_rate:
                 self.is_alive = False
-                return self.is_alive
             else:
                 self.is_vaccinated = True
                 self.infection = None
-                self.is_alive = True
-                return self.is_alive
+
+        return self.is_alive
 
 
 ''' These are simple tests to ensure that you are instantiating your Person class correctly. '''
