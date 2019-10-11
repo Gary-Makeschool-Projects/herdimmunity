@@ -177,7 +177,6 @@ class Simulation(object):
         #     Simulation object's newly_infected array, so that their .infected
         #     attribute can be changed to True at the end of the time step.
         # TODO: Call slogger method during this method.
-        pass
 
     def _infect_newly_infected(self):
         ''' This method should iterate through the list of ._id stored in self.newly_infected

@@ -58,7 +58,7 @@ def test_not_vacc_person_instantiation():
 def test_sick_person_instantiation():
     virus = Virus("Dysentery", 0.7, 0.2)
     person = Person(3, False, virus)
-    # TODO: complete your own assert statements that test
+
     assert person._id == 3
     assert person.is_vaccinated is False
     assert person.infection == virus
