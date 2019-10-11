@@ -36,19 +36,19 @@ class Simulation(object):
         self.total_infected = self.initial_infected  # Int
         self.current_infected = self.initial_infected  # Int
         self.vacc_percentage = vacc_percentage  # float between 0 and 1
-        self.total_dead = 0  # Int
+        self.total_dead = len([])  # Int
         self.file_name = "{}_simulation_pop_{}_vp_{}_infected_{}.txt".format(
             self.virus.name, population_size, vacc_percentage, initial_infected)
         self.logger = Logger(self.file_name)
         self.newly_infected = []
-        self._create_population = self._create_population()
+        self._create_population = self.create_population()
 
-    def _create_population(self):
+    def create_population(self):
         '''This method will create the initial population.
             Returns:
                 list: A list of Person objects.
         '''
-        # Should return a 0.xx value - Vacc percentage
+        # Vacc percentage
         vacc_percentage = self.vacc_percentage
 
         # The number of people to vaccinate
@@ -57,7 +57,7 @@ class Simulation(object):
         # Number of infected people
         num_to_infect = self.initial_infected
 
-        # healthy percentage
+        # healthy peeps percentage
         num_to_create_norm = self.population_size - \
             (num_to_infect + num_to_vac)
 
@@ -80,15 +80,14 @@ class Simulation(object):
                 bool: True for simulation should continue, False if it should end.
         '''
         # Reset values to avoid early term
-        self.total_dead = 0
+        self.total_dead = []
         self.current_infected = 0
 
         # Get a list of people who are alive
-        # TODO: Could break logic, may need to rewrite again
         for person in self.population:
             # get a count of all the dead peopl
             if person.is_alive == False:
-                self.total_dead += 1
+                self.total_dead.append(person)
 
             # self.current_infected will be 0 if everyone is vaccinated and alive - will ignore dead people
             if person.infection and person.is_alive:
@@ -141,14 +140,14 @@ class Simulation(object):
             3. Otherwise call simulation.interaction(person, random_person) and
                 increment interaction counter by 1.
             '''
-        # Get a list of alive people
-        living_people = [x for x in self.population if x.is_alive]
-
-        for person in living_people:
+        # get a list of alive peeps
+        alivepeeps = [x for x in self.population if x.is_alive]
+        # have all the alive people interact with each other
+        for person in alivepeeps:
             interaction = 0
             if person.infection:
                 while interaction <= 100:
-                    rand_person = random.choice(living_people)
+                    rand_person = random.choice(alivepeeps)
                     self.interaction(person, rand_person)
                     interaction += 1
 
@@ -176,8 +175,8 @@ class Simulation(object):
 
         elif random_person.infection is None and random_person.is_vaccinated == False and random_person._id is not person._id:
             # Generate random value to be used to compare against repro rate
-            rand_val = random.random()
-            if rand_val < self.virus.repro_rate:
+            god = random.random()
+            if god < self.virus.repro_rate:
                 # Random person got infected by the virus
                 self.newly_infected.append(random_person._id)
                 # Log that the user got infected
@@ -188,7 +187,7 @@ class Simulation(object):
                 # Got lucky and resisted the virus
                 self.logger.log_interaction(
                     person, random_person, False, False, False)
-            return rand_val
+            return god
 
     def _infect_newly_infected(self):
         ''' This method should iterate through the list of ._id stored in self.newly_infected
@@ -202,7 +201,6 @@ class Simulation(object):
 
 
 if __name__ == "__main__":
-    # p3 simulation.py Ebola 0.25 0.70 100 0.90 10
     params = sys.argv[1:]
     print(params)
     virus_name = str(params[0])
@@ -221,3 +219,4 @@ if __name__ == "__main__":
     sim = Simulation(population_size, vacc_percentage, virus, initial_infected)
 
     sim.run()
+    # try it out
