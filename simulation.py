@@ -52,7 +52,7 @@ class Simulation(object):
             virus_name, pop_size, vacc_percentage, initial_infected)
         self.newly_infected = []
 
-    def _create_population(self,):
+    def _create_population(self):
         '''This method will create the initial population.
             Args:
                 initial_infected (int): The number of infected people that the simulation
@@ -80,8 +80,7 @@ class Simulation(object):
         infected = self.initial_infected
 
         # healthy percentage
-        num_to_create_norm = self.pop_size - \
-            (infected + vaccinated)
+        num_to_create_norm = self.pop_size - (infected + vaccinated)
 
         counter = 1
         for i in range(0, vaccinated):
